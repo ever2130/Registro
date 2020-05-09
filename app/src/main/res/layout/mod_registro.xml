@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".ModificarRegistro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ESTRATO"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/spinnerEstrato"
+                android:layout_width="250dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="93dp"
+                android:layout_marginVertical="32dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALARIO"
+                android:textSize="30sp" />
+            <EditText
+                android:id="@+id/edtsalario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ESTRATO"
+                android:textSize="30sp" />
+            <Spinner
+                android:id="@+id/spinnerNAacade"
+                android:layout_width="250dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="93dp"
+                android:layout_marginVertical="32dp"
+                />
+
+            <Button
+                android:id="@+id/btnguardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#E1FBBA"
+                android:text="REGISTRAR" />
+
+            <Button
+                android:id="@+id/btncancelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E1FBBA"
+                android:text="Cancelar" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
